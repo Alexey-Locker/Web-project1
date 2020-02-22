@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+}
+#block_content{
+    position: absolute;
+    left: 33%;
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    background-image: url(./);
+    flex-direction: column;
+    justify-content: flex-start;
+     align-items: flex-start;
+}
+.login{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+}
+.registr{
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    font-family: 'Lobster', cursive;
+    padding-top: 20px;
+}
+.registration{
+         border-color: black;
+         border-width: 1px;
+         font-size: 16px;
+         text-align: center;
+         font-weight: normal;
+         width: 300px;
+         background-color: rgb(245, 242, 204);
+         padding-bottom: 30px;
+}
+.accept_reg{
+    display: flex;
+    flex-direction: row;
+}
+#done{
+    padding-left: 6px;
+}
+.registr_button{
+    height: 38px;
+    border: 0px;
+    width: 300px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(224, 10, 10);
+}
+#closeImage{
+    padding-left: 5px;
+    padding-top: 5px;
+    height: 28px;
+    width: 29px;
+    align-self: center;
+
+}
+.password{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 6.5%;
+    justify-content: center;
+}
+ 
