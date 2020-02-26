@@ -29,10 +29,12 @@ body{
     color: white;
     text-decoration: none;
     padding: .8em 1em calc(.8em + 3px);
-    background: rgb(177, 8, 8);
+    background: rgb(255, 0, 0);
     transition: 0.2s;
+    border: 0;
 }
 #b{
+    border: 0;
     font-weight: 700;
     font-size: 14px;
     color: white;
@@ -42,11 +44,12 @@ body{
     transition: 0.2s;
 }
 #c{
+    border: 0;
     font-weight: 700;
     font-size: 14px;
     color: white;
     text-decoration: none;
-    background: rgb(177, 8, 8);
+    background: rgb(255, 0, 0);
     padding: .8em 1em calc(.8em + 3px);
     transition: 0.2s;
 }
