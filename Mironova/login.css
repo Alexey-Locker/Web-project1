@@ -4,7 +4,7 @@
 #block_content{
     position: absolute;
     left: 33%;
-    width: 35%;
+    width: 70vh;
     height: 100vh;
     display: flex;
     background-image: url(./img/gradient.jpg);
@@ -30,22 +30,13 @@
     font-family: 'Lobster', cursive;
     padding-top: 20px;
 }
-.registration{
-         border-color: black;
-         border-width: 1px;
-         font-size: 16px;
-         text-align: center;
-         font-weight: normal;
-         width: 300px;
-         background-color: rgb(245, 242, 204);
-         padding-bottom: 30px;
-}
 .accept_reg{
     display: flex;
     flex-direction: row;
 }
 #done{
     padding-left: 6px;
+    padding-bottom: 8px;
 }
 .registr_button{
     height: 38px;
@@ -70,13 +61,6 @@
     flex-direction: row;
     justify-content: center;
 }
- #email{
-    
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
- }
  .sign_in{
     padding-bottom: 30px;
     font-size: 20px;
