@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#play_place{
+    width: 800px;
+    height: 600px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.object{
+    width: 90px;
+    height: 80px;
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-right: 0;
+}
+.color{
+    width: 30vh;
+    height: 7vh;
+}
+#a{
+    
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    background: rgb(177, 8, 8);
+    transition: 0.2s;
+}
+#b{
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    transition: 0.2s;
+}
+#c{
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    background: rgb(177, 8, 8);
+    padding: .8em 1em calc(.8em + 3px);
+    transition: 0.2s;
+}
+.play_score{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: flex-end;
+}
