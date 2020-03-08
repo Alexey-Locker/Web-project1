@@ -1,0 +1,36 @@
+.content__bolls {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.content__boll-animation {
+    height: 60px;
+    width: 60px;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content__bolls-color-red {
+    background-color: red;
+    margin: 2px;
+    margin-right: 6px;
+}
+
+.content__bolls-color-blue {
+    background-color: blue;
+    margin: 2px;
+}
+
+.content__bolls-color-yellow {
+    background-color: yellow;
+    margin: 2px;
+}
+
+.content__bolls-color-green {
+    background-color: green;
+    margin-left: 6px;
+    margin: 2px;
+}

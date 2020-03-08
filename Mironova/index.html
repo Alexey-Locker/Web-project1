@@ -1,35 +1,34 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Mironova</title>
-    <script src="lib/login.js"></script>
-    <link rel="stylesheet" href="lib/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/nav.css">
+    <link rel="stylesheet" href="./style/content_boll.css">
+    <link rel="stylesheet" href="./style/content.css">
+    <title>LM</title>
 </head>
+
 <body>
-  <nav>
-  <div id="imageHub"><a href="index.html"><img src="img/iconMain.png" alt="Главное фото" class="navImage"></a></div>
-  <div id="navigation">
-      <ul id="list">
-      <li>Главная</li>
-      <li> <a href="test1.html">Тест</a> </li>
-      <li>Помощь</li></ul></div>
-     <div id="login"><a href="login.html"><img src="img/login.png" alt="Вход" class="navImage"></a></div>
-  </nav>
-  
-  <div id="block_content">
-    <div class = "main"> <img src="./img/4444.PNG"alt="Image"></div>
-     <div class="content">
-      <a class = "button" href="test1.html">ХАЧУ ТЕСТ)</a>
-      <span>
-      
-      </span>
-
-
-     </div>
-  </div>
-    
+    <nav>
+        <div class="nav__main-icon">
+            <img src="./img/iconMain.png" alt="Icon Main" class="nav__img-main-icon nav__img-main-icon-size">
+        </div>
+        <ul class="nav__main-menu">
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Проходження тестів</a></li>
+            <li><a href="#">Допомога</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="content__boll content__boll-animation">
+            <div class="content__bolls content__bolls-color-red"></div>
+            <div class="content__bolls content__bolls-color-blue"></div>
+            <div class="content__bolls content__bolls-color-yellow"></div>
+            <div class="content__bolls content__bolls-color-green"></div>
+        </div>
+    </div>
 </body>
+
 </html>
